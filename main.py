@@ -5,7 +5,8 @@ def menu():
         print("2. Factorial")
         print("3. Número primo")
         print("4. N números perfectos")
-        print("5. Salir")
+        print("5. Sumar dos numeros")
+        print("6. Salir")
 
         opcion = input("Seleccione una opción: ")
 
@@ -22,6 +23,9 @@ def menu():
            print(f" N números perfectos")
 
         elif opcion == "5":
+           print(f" Suma dos numeros")
+
+        elif opcion == "6":
             print("Saliendo...")
             break
 
