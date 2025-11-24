@@ -1,4 +1,5 @@
 from fibonacci import fibonacci
+from factoriales import pedir_factorial
 
 def menu():
     while True:
@@ -16,7 +17,7 @@ def menu():
             fibonacci()
 
         elif opcion == "2":
-            print(f"Factorial")
+            pedir_factorial()
            
         elif opcion == "3":
             print(f"Número primo")
