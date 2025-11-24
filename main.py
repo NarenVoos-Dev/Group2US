@@ -1,3 +1,5 @@
+from fibonacci import fibonacci
+
 def menu():
     while True:
         print("\n--- MENÚ PRINCIPAL ---")
@@ -11,7 +13,7 @@ def menu():
         opcion = input("Seleccione una opción: ")
 
         if opcion == "1":
-            print(f"Fibonacci")
+            fibonacci()
 
         elif opcion == "2":
             print(f"Factorial")
