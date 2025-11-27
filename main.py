@@ -1,6 +1,7 @@
 from fibonacci import fibonacci
 from factoriales import pedir_factorial
 from primes import pedir_primo
+from Suma import suma
 
 def menu():
     while True:
@@ -27,7 +28,14 @@ def menu():
            print(f" N números perfectos")
 
         elif opcion == "5":
-           print(f" Suma dos numeros")
+           # Pedir dos números al usuario y mostrar la suma
+           a = input("Ingrese el primer número: ")
+           b = input("Ingrese el segundo número: ")
+           try:
+               resultado = suma(a, b)
+               print(f"Resultado de la suma: {resultado}")
+           except Exception as e:
+               print("Error al sumar:", e)
 
         elif opcion == "6":
             print("Saliendo...")
