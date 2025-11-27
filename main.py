@@ -1,5 +1,6 @@
 from fibonacci import fibonacci
 from factoriales import pedir_factorial
+from primes import pedir_primo
 
 def menu():
     while True:
@@ -20,7 +21,7 @@ def menu():
             pedir_factorial()
            
         elif opcion == "3":
-            print(f"Número primo")
+            pedir_primo()
 
         elif opcion == "4":
            print(f" N números perfectos")
