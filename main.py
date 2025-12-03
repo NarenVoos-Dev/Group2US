@@ -2,6 +2,7 @@ from fibonacci import fibonacci
 from factoriales import pedir_factorial
 from primes import pedir_primo
 from Suma import suma
+from NumerosPerfectos import pedir_numero_perfecto
 
 def menu():
     while True:
@@ -25,7 +26,7 @@ def menu():
             pedir_primo()
 
         elif opcion == "4":
-           print(f" N números perfectos")
+            pedir_numero_perfecto()
 
         elif opcion == "5":
            # Pedir dos números al usuario y mostrar la suma
